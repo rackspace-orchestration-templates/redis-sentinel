@@ -87,7 +87,7 @@ parameters:
     type: number
     default: 2
     constraints:
-      - range: { min: 1 }
+      - length: { min: 1 }
 
   slave_server_hostname:
     label: Slave Hostname
